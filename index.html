@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galery vue</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="container">
+<div id="app">
+  <div class="img-large" v-if="imgprev">
+    <img-large v-bind:img="imgprev"></img-large>
+  </div>
+  
+    <div class="img-small"> 
+        <div class="brd" v-for="im in img">
+          <img v-bind:src="im" alt="img1" v-on:click="clickprev(im)"> 
+        </div>
+    </div>
+    <div class="img-small"> 
+        <div class="brd" v-for="im in img">
+          <img v-bind:src="im" alt="img1"  v-on:click="clickprev(im)"> 
+        </div>
+    </div>
+</div>
+</div>
+
+<script src="js/vue.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
