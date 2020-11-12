@@ -1,1 +1,1 @@
-README.md
+<h1>Simple Gallery Vue JS </h1>
