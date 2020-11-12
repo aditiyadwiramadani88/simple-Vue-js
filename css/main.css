@@ -1,0 +1,32 @@
+.container{ 
+   position: relative; 
+   display: flex;
+   justify-content: center;
+} 
+.img-small{
+ display:flex; 
+ align-items: center;
+
+}
+
+.brd{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.brd img{
+      border: 2px solid black;
+    width: 300px;
+    height: 260px;
+}
+
+
+.img-large { 
+    display: flex;
+  justify-content: center;
+}
+
+.img-large2{ 
+    width: 600px;
+
+}
